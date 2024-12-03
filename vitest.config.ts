@@ -17,7 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@config': join(__dirname, 'config'),
-      '@common': join(__dirname, 'src/common'),
+      '@core': join(__dirname, 'src/core'),
       '@modules': join(__dirname, 'src/modules'),
       '@test': join(__dirname, 'test')
     }
